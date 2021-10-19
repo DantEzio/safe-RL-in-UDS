@@ -1,0 +1,378 @@
+
+  EPA STORM WATER MANAGEMENT MODEL - VERSION 5.1 (Build 5.3.0.dev0)
+  --------------------------------------------------------------
+
+  WARNING 09: time series interval greater than recording interval for Rain Gage RG1
+  WARNING 09: time series interval greater than recording interval for Rain Gage RG2
+  WARNING 09: time series interval greater than recording interval for Rain Gage RG3
+  WARNING 09: time series interval greater than recording interval for Rain Gage RG4
+  
+  *********************************************************
+  NOTE: The summary statistics displayed in this report are
+  based on results found at every computational time step,  
+  not just on results from each reporting time step.
+  *********************************************************
+  
+  ****************
+  Analysis Options
+  ****************
+  Flow Units ............... CMS
+  Process Models:
+    Rainfall/Runoff ........ YES
+    RDII ................... NO
+    Snowmelt ............... NO
+    Groundwater ............ NO
+    Flow Routing ........... YES
+    Ponding Allowed ........ YES
+    Water Quality .......... NO
+  Infiltration Method ...... HORTON
+  Flow Routing Method ...... DYNWAVE
+  Surcharge Method ......... EXTRAN
+  Starting Date ............ 08/28/2015 00:00:00
+  Ending Date .............. 08/28/2015 23:40:00
+  Antecedent Dry Days ...... 0.0
+  Report Time Step ......... 00:01:00
+  Wet Time Step ............ 00:01:00
+  Dry Time Step ............ 00:01:00
+  Routing Time Step ........ 5.00 sec
+  Variable Time Step ....... YES
+  Maximum Trials ........... 8
+  Number of Threads ........ 1
+  Head Tolerance ........... 0.001500 m
+  
+  
+  **************************        Volume         Depth
+  Runoff Quantity Continuity     hectare-m            mm
+  **************************     ---------       -------
+  Total Precipitation ......         4.472        24.815
+  Evaporation Loss .........         0.000         0.000
+  Infiltration Loss ........         0.000         0.000
+  Surface Runoff ...........         4.468        24.794
+  Final Storage ............         0.013         0.069
+  Continuity Error (%) .....        -0.197
+  
+  
+  **************************        Volume        Volume
+  Flow Routing Continuity        hectare-m      10^6 ltr
+  **************************     ---------     ---------
+  Dry Weather Inflow .......         0.758         7.576
+  Wet Weather Inflow .......         4.468        44.680
+  Groundwater Inflow .......         0.000         0.000
+  RDII Inflow ..............         0.000         0.000
+  External Inflow ..........         0.000         0.000
+  External Outflow .........         1.641        16.406
+  Flooding Loss ............         2.917        29.174
+  Evaporation Loss .........         0.000         0.000
+  Exfiltration Loss ........         0.000         0.000
+  Initial Stored Volume ....         0.000         0.000
+  Final Stored Volume ......         0.553         5.526
+  Continuity Error (%) .....         2.199
+  
+  
+  *************************
+  Highest Continuity Errors
+  *************************
+  Node T5 (10.63%)
+  Node T2 (10.32%)
+  Node T3 (6.26%)
+  Node T4 (4.92%)
+  Node T6 (1.69%)
+  
+  
+  ***************************
+  Time-Step Critical Elements
+  ***************************
+  None
+  
+  
+  ********************************
+  Highest Flow Instability Indexes
+  ********************************
+  All links are stable.
+  
+  
+  *************************
+  Routing Time Step Summary
+  *************************
+  Minimum Time Step           :     4.50 sec
+  Average Time Step           :     5.00 sec
+  Maximum Time Step           :     5.00 sec
+  Percent in Steady State     :     0.00
+  Average Iterations per Step :     2.23
+  Percent Not Converging      :     0.87
+  
+  
+  ***************************
+  Subcatchment Runoff Summary
+  ***************************
+  
+  ------------------------------------------------------------------------------------------------------------------------------
+                            Total      Total      Total      Total     Imperv       Perv      Total       Total     Peak  Runoff
+                           Precip      Runon       Evap      Infil     Runoff     Runoff     Runoff      Runoff   Runoff   Coeff
+  Subcatchment                 mm         mm         mm         mm         mm         mm         mm    10^6 ltr      CMS
+  ------------------------------------------------------------------------------------------------------------------------------
+  SC01                      22.91       0.00       0.00       0.00      22.91       0.00      22.91        7.56     3.11   1.000
+  SC02                      21.67       0.00       0.00       0.00      21.67       0.00      21.67        4.93     2.53   1.000
+  SC03                      29.37       0.00       0.00       0.00      29.44       0.00      29.44        5.30     1.50   1.002
+  SC04                      21.67       0.00       0.00       0.00      21.61       0.00      21.61        1.49     0.44   0.997
+  SC05                      22.91       0.00       0.00       0.00      22.90       0.00      22.90        3.57     1.38   1.000
+  SC06                      25.16       0.00       0.00       0.00      25.08       0.00      25.08        8.16     1.18   0.997
+  SC07                      21.67       0.00       0.00       0.00      21.61       0.00      21.61        1.03     0.30   0.997
+  SC08                      29.37       0.00       0.00       0.00      29.35       0.00      29.35        8.22     1.78   0.999
+  SC09                      25.16       0.00       0.00       0.00      25.11       0.00      25.11        1.73     0.28   0.998
+  SC010                     22.91       0.00       0.00       0.00      22.88       0.00      22.88        2.69     0.90   0.999
+  
+  
+  ******************
+  Node Depth Summary
+  ******************
+  
+  ---------------------------------------------------------------------------------
+                                 Average  Maximum  Maximum  Time of Max    Reported
+                                   Depth    Depth      HGL   Occurrence   Max Depth
+  Node                 Type       Meters   Meters   Meters  days hr:min      Meters
+  ---------------------------------------------------------------------------------
+  J1                   JUNCTION     0.06     0.38    34.38     0  06:36        0.38
+  J3                   JUNCTION     0.10     0.12    18.12     0  07:38        0.12
+  CSO7                 JUNCTION     0.13     1.20    35.20     0  06:20        1.20
+  J5                   JUNCTION     0.05     0.23    32.23     0  06:32        0.23
+  CSO9                 JUNCTION     0.23     2.00    42.00     0  04:35        2.00
+  J8                   JUNCTION     0.10     0.36    36.36     0  06:47        0.36
+  CSO8                 JUNCTION     0.24     2.00    34.00     0  04:15        2.00
+  J10                  JUNCTION     0.08     0.38    29.38     0  06:22        0.38
+  J13                  JUNCTION     0.05     0.40    29.40     0  06:31        0.39
+  J15                  JUNCTION     0.16     0.53    15.53     0  06:38        0.53
+  J16                  JUNCTION     0.06     0.41    30.41     0  06:36        0.40
+  CSO10                JUNCTION     0.13     1.00    31.00     0  04:06        1.00
+  J12                  JUNCTION     0.58     1.08    27.08     0  06:25        1.08
+  J4                   JUNCTION     0.12     1.44    34.44     0  06:22        0.80
+  J6                   JUNCTION     0.06     0.07    25.07     0  07:49        0.07
+  J2                   JUNCTION     0.00     0.00    25.00     0  00:00        0.00
+  J19                  JUNCTION     0.14     0.17     8.17     0  04:57        0.17
+  J9                   JUNCTION     0.08     0.11    29.11     0  06:34        0.11
+  J14                  JUNCTION     0.12     0.15    20.15     0  06:23        0.15
+  J17                  JUNCTION     0.06     0.08    20.08     0  07:39        0.08
+  J7                   JUNCTION     0.07     0.23    39.23     0  07:19        0.23
+  J11                  JUNCTION     0.08     0.30    31.30     0  07:12        0.30
+  J18                  JUNCTION     0.05     0.16    29.16     0  07:07        0.16
+  Out_to_WWTP          OUTFALL      0.13     0.17     6.17     0  09:27        0.17
+  T5                   STORAGE      4.09     5.00    32.00     0  05:11        5.00
+  T4                   STORAGE      3.24     5.00    32.00     0  06:37        5.00
+  T6                   STORAGE      3.16     5.00    36.00     0  04:57        5.00
+  T3                   STORAGE      3.81     5.00    27.00     0  06:22        5.00
+  T2                   STORAGE      3.49     5.00    26.00     0  06:32        5.00
+  T1                   STORAGE      3.09     5.00    15.00     0  04:56        5.00
+  
+  
+  *******************
+  Node Inflow Summary
+  *******************
+  
+  -------------------------------------------------------------------------------------------------
+                                  Maximum  Maximum                  Lateral       Total        Flow
+                                  Lateral    Total  Time of Max      Inflow      Inflow     Balance
+                                   Inflow   Inflow   Occurrence      Volume      Volume       Error
+  Node                 Type           CMS      CMS  days hr:min    10^6 ltr    10^6 ltr     Percent
+  -------------------------------------------------------------------------------------------------
+  J1                   JUNCTION     1.398    1.398     0  06:36        4.67        4.67      -0.026
+  J3                   JUNCTION     0.000    0.152     0  06:48           0        9.89       0.306
+  CSO7                 JUNCTION     0.309    0.309     0  06:31        1.59        1.59       0.008
+  J5                   JUNCTION     0.441    0.515     0  06:31        1.74        3.08      -0.016
+  CSO9                 JUNCTION     0.282    0.282     0  06:46        2.11        2.11      -0.008
+  J8                   JUNCTION     1.204    1.332     0  06:46        9.99        11.8      -0.016
+  CSO8                 JUNCTION     1.791    1.791     0  06:36        8.67        8.67      -0.017
+  J10                  JUNCTION     1.513    1.998     0  06:21        6.05        12.4      -0.087
+  J13                  JUNCTION     2.540    2.540     0  06:31        5.84        5.84      -0.105
+  J15                  JUNCTION     0.000    3.315     0  06:36           0          23       0.275
+  J16                  JUNCTION     3.122    3.122     0  06:36        8.64        8.64      -0.071
+  CSO10                JUNCTION     0.899    0.899     0  06:36        2.96        2.96      -0.025
+  J12                  JUNCTION     0.000    1.691     0  06:22           0          17       0.030
+  J4                   JUNCTION     0.000    0.083     0  06:21           0        1.35       0.060
+  J6                   JUNCTION     0.000    0.028     0  06:37           0         1.7       0.166
+  J2                   JUNCTION     0.000    0.000     0  00:00           0           0       0.000 ltr
+  J19                  JUNCTION     0.000    0.271     0  04:56           0        16.4       0.055
+  J9                   JUNCTION     0.000    0.075     0  04:57           0        4.47       0.352
+  J14                  JUNCTION     0.000    0.124     0  06:22           0        8.19       0.075
+  J17                  JUNCTION     0.000    0.033     0  06:32           0         2.1       0.334
+  J7                   JUNCTION     0.000    0.127     0  07:19           0        1.77       0.044
+  J11                  JUNCTION     0.000    0.487     0  07:12           0        6.38       0.038
+  J18                  JUNCTION     0.000    0.202     0  07:08           0        2.39      -0.054
+  Out_to_WWTP          OUTFALL      0.000    0.271     0  04:58           0        16.4       0.000
+  T5                   STORAGE      0.000    1.282     0  06:36           0        4.67      11.894
+  T4                   STORAGE      0.000    0.468     0  06:32           0        3.08       5.174
+  T6                   STORAGE      0.000    1.259     0  06:47           0        11.8       1.723
+  T3                   STORAGE      0.000    2.016     0  06:29           0          17       6.681
+  T2                   STORAGE      0.000    2.298     0  06:31           0        5.85      11.510
+  T1                   STORAGE      0.000    2.390     0  06:39           0        22.9       1.601
+  
+  
+  **********************
+  Node Surcharge Summary
+  **********************
+  
+  Surcharging occurs when water rises above the top of the highest conduit.
+  ---------------------------------------------------------------------
+                                               Max. Height   Min. Depth
+                                   Hours       Above Crown    Below Rim
+  Node                 Type      Surcharged         Meters       Meters
+  ---------------------------------------------------------------------
+  CSO7                 JUNCTION        1.35          0.945        0.000
+  CSO9                 JUNCTION        2.29          1.682        0.000
+  CSO8                 JUNCTION        2.38          1.547        0.000
+  CSO10                JUNCTION        1.26          0.560        0.000
+  J4                   JUNCTION        1.32          1.139        0.561
+  
+  
+  *********************
+  Node Flooding Summary
+  *********************
+  
+  Flooding refers to all water that overflows a node, whether it ponds or not.
+  --------------------------------------------------------------------------
+                                                             Total   Maximum
+                                 Maximum   Time of Max       Flood    Ponded
+                        Hours       Rate    Occurrence      Volume     Depth
+  Node                 Flooded       CMS   days hr:min    10^6 ltr    Meters
+  --------------------------------------------------------------------------
+  CSO7                    0.98     0.236      0  06:31       0.245     0.000
+  CSO9                    1.50     0.155      0  06:46       0.342     0.000
+  CSO8                    1.65     1.304      0  06:36       2.288     0.000
+  CSO10                   0.98     0.696      0  06:36       0.566     0.000
+  T5                     18.47     1.281      0  06:36       3.671     0.000
+  T4                      4.63     0.430      0  06:37       1.028     0.000
+  T6                      6.36     1.184      0  06:47       6.968     0.000
+  T3                      5.03     1.892      0  06:29       5.676     0.000
+  T2                      4.75     1.951      0  06:32       2.523     0.000
+  T1                      3.52     2.119      0  06:39       5.864     0.000
+  
+  
+  **********************
+  Storage Volume Summary
+  **********************
+  
+  --------------------------------------------------------------------------------------------------
+                         Average     Avg  Evap Exfil       Maximum     Max    Time of Max    Maximum
+                          Volume    Pcnt  Pcnt  Pcnt        Volume    Pcnt     Occurrence    Outflow
+  Storage Unit           1000 m3    Full  Loss  Loss       1000 m3    Full    days hr:min        CMS
+  --------------------------------------------------------------------------------------------------
+  T5                       0.409      82     0     0         0.500     100       0  05:11      0.000
+  T4                       0.324      65     0     0         0.500     100       0  06:37      0.028
+  T6                       0.379      63     0     0         0.600     100       0  04:57      0.075
+  T3                       1.983      76     0     0         2.600     100       0  06:22      0.280
+  T2                       0.699      70     0     0         1.000     100       0  06:32      0.033
+  T1                       0.433      62     0     0         0.700     100       0  04:56      0.271
+  
+  
+  ***********************
+  Outfall Loading Summary
+  ***********************
+  
+  -----------------------------------------------------------
+                         Flow       Avg       Max       Total
+                         Freq      Flow      Flow      Volume
+  Outfall Node           Pcnt       CMS       CMS    10^6 ltr
+  -----------------------------------------------------------
+  Out_to_WWTP           99.43     0.194     0.271      16.406
+  -----------------------------------------------------------
+  System                99.43     0.194     0.271      16.406
+  
+  
+  ********************
+  Link Flow Summary
+  ********************
+  
+  -----------------------------------------------------------------------------
+                                 Maximum  Time of Max   Maximum    Max/    Max/
+                                  |Flow|   Occurrence   |Veloc|    Full    Full
+  Link                 Type          CMS  days hr:min     m/sec    Flow   Depth
+  -----------------------------------------------------------------------------
+  C1                   CONDUIT     0.000     0  00:00      0.00    0.00    0.06
+  C6                   CONDUIT     0.075     0  06:31      1.28    1.19    0.88
+  C2                   CONDUIT     0.028     0  07:27      0.93    0.03    0.16
+  C9                   CONDUIT     0.127     0  07:20      1.29    0.43    0.60
+  C16                  CONDUIT     0.487     0  04:31      1.81    0.05    0.17
+  C3                   CONDUIT     0.124     0  06:25      1.95    0.05    0.14
+  C19                  CONDUIT     0.033     0  07:39      0.64    0.01    0.30
+  C11                  CONDUIT     0.152     0  07:38      1.56    0.01    0.16
+  C20                  CONDUIT     2.930     0  06:36      5.97    0.09    0.22
+  C22                  CONDUIT     0.202     0  07:07      1.68    0.09    0.43
+  C12                  CONDUIT     0.075     0  06:35      0.97    0.01    0.30
+  C17                  CONDUIT     1.615     0  06:22      3.55    0.08    0.36
+  C10                  CONDUIT     1.259     0  06:47      1.09    0.13    0.62
+  C13                  CONDUIT     2.016     0  06:29      2.57    0.12    0.77
+  C18                  CONDUIT     2.298     0  06:31      1.31    0.09    0.60
+  C23                  CONDUIT     2.390     0  06:39      2.10    0.26    0.68
+  C4                   CONDUIT     1.282     0  06:36      2.21    0.31    0.69
+  C7                   CONDUIT     0.468     0  06:32      0.92    0.12    0.61
+  C14                  CONDUIT     0.271     0  04:58      2.08    0.02    0.09
+  C5                   CONDUIT     0.083     0  06:21      1.61    1.41    1.00
+  C8                   CONDUIT     0.127     0  07:19      1.83    1.60    0.86
+  C15                  CONDUIT     0.487     0  07:12      3.57    1.55    0.83
+  C21                  CONDUIT     0.202     0  07:08      1.91    1.16    0.69
+  V4                   ORIFICE     0.028     0  06:37                      0.35
+  V5                   ORIFICE     0.000     0  00:00                      0.00
+  V1                   ORIFICE     0.271     0  04:56                      1.00
+  V6                   ORIFICE     0.075     0  04:57                      0.43
+  V3                   ORIFICE     0.124     0  06:22                      0.65
+  V2                   ORIFICE     0.033     0  06:32                      0.24
+  
+  
+  ***************************
+  Flow Classification Summary
+  ***************************
+  
+  -------------------------------------------------------------------------------------
+                      Adjusted    ---------- Fraction of Time in Flow Class ---------- 
+                       /Actual         Up    Down  Sub   Sup   Up    Down  Norm  Inlet 
+  Conduit               Length    Dry  Dry   Dry   Crit  Crit  Crit  Crit  Ltd   Ctrl  
+  -------------------------------------------------------------------------------------
+  C1                      1.00   0.19  0.81  0.00  0.00  0.00  0.00  0.00  0.00  0.00
+  C6                      1.00   0.00  0.00  0.00  0.07  0.93  0.00  0.00  0.00  0.00
+  C2                      1.00   0.19  0.00  0.00  0.13  0.68  0.00  0.00  0.81  0.00
+  C9                      1.00   0.00  0.00  0.00  1.00  0.00  0.00  0.00  1.00  0.00
+  C16                     1.00   0.00  0.13  0.00  0.53  0.33  0.00  0.00  0.46  0.00
+  C3                      1.00   0.19  0.00  0.00  0.00  0.81  0.00  0.00  0.00  0.00
+  C19                     1.00   0.00  0.19  0.00  0.81  0.00  0.00  0.00  0.81  0.00
+  C11                     1.00   0.00  0.19  0.00  0.11  0.70  0.00  0.00  0.81  0.00
+  C20                     1.00   0.00  0.00  0.00  0.65  0.35  0.00  0.00  0.98  0.00
+  C22                     1.00   0.00  0.00  0.00  0.88  0.12  0.00  0.00  1.00  0.00
+  C12                     1.00   0.00  0.19  0.00  0.76  0.05  0.00  0.00  0.76  0.00
+  C17                     1.00   0.00  0.00  0.00  0.78  0.22  0.00  0.00  0.96  0.00
+  C10                     1.00   0.00  0.00  0.00  0.98  0.02  0.00  0.00  0.98  0.00
+  C13                     1.00   0.00  0.00  0.00  0.91  0.09  0.00  0.00  0.19  0.00
+  C18                     1.00   0.00  0.00  0.00  0.96  0.04  0.00  0.00  0.98  0.00
+  C23                     1.00   0.00  0.00  0.00  0.84  0.16  0.00  0.00  0.92  0.00
+  C4                      1.00   0.00  0.00  0.00  0.98  0.02  0.00  0.00  0.99  0.00
+  C7                      1.00   0.00  0.00  0.00  0.97  0.03  0.00  0.00  0.98  0.00
+  C14                     1.00   0.00  0.00  0.00  0.00  1.00  0.00  0.00  0.48  0.00
+  C5                      1.00   0.00  0.00  0.00  0.95  0.05  0.00  0.00  0.91  0.00
+  C8                      1.00   0.00  0.00  0.00  0.29  0.71  0.00  0.00  0.01  0.00
+  C15                     1.00   0.13  0.00  0.00  0.02  0.85  0.00  0.00  0.02  0.00
+  C21                     1.00   0.00  0.00  0.00  0.01  0.99  0.00  0.00  0.00  0.00
+  
+  
+  *************************
+  Conduit Surcharge Summary
+  *************************
+  
+  ----------------------------------------------------------------------------
+                                                           Hours        Hours 
+                         --------- Hours Full --------   Above Full   Capacity
+  Conduit                Both Ends  Upstream  Dnstream   Normal Flow   Limited
+  ----------------------------------------------------------------------------
+  C6                          0.01      1.32      0.01      1.14         0.01
+  C10                         0.01      0.01     18.13      0.01         0.01
+  C13                         0.01      0.01     19.16      0.01         0.01
+  C18                         0.01      0.01     18.88      0.01         0.01
+  C23                         0.01      0.01     19.46      0.01         0.01
+  C4                          0.01      0.01     19.58      0.01         0.01
+  C7                          0.01      0.01     19.34      0.01         0.01
+  C5                          1.35      1.35      1.46      1.39         1.30
+  C8                          0.01      2.29      0.01      2.32         0.01
+  C15                         0.01      2.38      0.01      2.45         0.01
+  C21                         0.01      1.27      0.01      1.20         0.01
+  
+
+  Analysis begun on:  Tue Sep 21 11:10:36 2021
+  Analysis ended on:  Tue Sep 21 11:10:36 2021
+  Total elapsed time: < 1 sec

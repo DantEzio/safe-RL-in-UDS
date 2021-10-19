@@ -1,0 +1,2 @@
+model_checkpoint_path: "ppo2 safemodel.ckpt"
+all_model_checkpoint_paths: "ppo2 safemodel.ckpt"
