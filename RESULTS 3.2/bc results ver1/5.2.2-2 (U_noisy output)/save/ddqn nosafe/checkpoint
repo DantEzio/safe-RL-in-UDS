@@ -1,2 +1,0 @@
-model_checkpoint_path: "ddqn nosafe model.ckpt"
-all_model_checkpoint_paths: "ddqn nosafe model.ckpt"

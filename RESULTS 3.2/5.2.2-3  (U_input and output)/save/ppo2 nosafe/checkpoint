@@ -1,2 +1,0 @@
-model_checkpoint_path: "ppo2 nosafemodel.ckpt"
-all_model_checkpoint_paths: "ppo2 nosafemodel.ckpt"
